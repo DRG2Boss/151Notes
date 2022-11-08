@@ -52,7 +52,7 @@ def process_user_choice(user_choice, country_data):
 
 
 def add_country(nations_pop_data):
-    country_name = input("Please enter new country name")
+    country_name = input("Please enter new country name:")
     country_pop = int(input(f"please enter population for {country_name}:"))
     pop_change = float(input(f"Please enter the population change 2021-2022:"))
     country = {
@@ -60,7 +60,7 @@ def add_country(nations_pop_data):
         'pop': country_pop,
         'change': pop_change
     }
-    country_data.append(country)
+    nations_pop_data.append(country)
 
 
 def print_menu():
