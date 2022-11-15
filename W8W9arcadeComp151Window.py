@@ -18,8 +18,8 @@ class Comp151Window(arcade.Window):
         self.player.center_y = 500
         for number in range(5):
             self.target = arcade.Sprite(":resources:images/space_shooter/meteorGrey_med1.png")
-            self.target.center_x = random.randint(16, 1184)
-            self.target.center_y = random.randint(16, 984)
+            self.target.center_x = random.randint(15, 1185)
+            self.target.center_y = random.randint(15, 985)
             self.targets.append(self.target)
 
     def on_update(self, time_since_update):
