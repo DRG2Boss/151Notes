@@ -1,6 +1,6 @@
 import arcade
 # "from" calls the file name, "import" imports (duh) the class within the file.
-from W9ShipGoldWindow import ShipGoldWindow
+from W9W10ShipGoldWindow import ShipGoldWindow
 
 
 def main():
